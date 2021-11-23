@@ -14,10 +14,14 @@ img {
   align-items: center;
 }
 
-input,
+
 h1, h3 {
   margin: "fit-content";
   color: white;
+}
+
+input {
+  margin: "fit-content";
 }
 
 #sfText {
