@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div id="container">
-      <img src="https://upload.wikimedia.org/wikipedia/donate/0/02/Paypal-logo-white.svg" />
+      <img alt="paypal-logo" src="https://upload.wikimedia.org/wikipedia/donate/0/02/Paypal-logo-white.svg" />
       <h1>Salesforce escalation template</h1>
       <div id="flex-container">
         <div id="flex-left">
