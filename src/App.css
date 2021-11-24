@@ -11,7 +11,17 @@ img {
 #flex-container {
   display: flex;
   padding: 3%;
-  align-items: center;
+  justify-content: center;
+}
+
+#flex-left {
+  margin-left: 2%;
+  width: 33%;
+}
+
+#flex-right {
+  margin-left: 2%;
+  width: 33%;
 }
 
 
@@ -22,11 +32,20 @@ h1, h3 {
 
 input {
   margin: "fit-content";
+  color: black;
 }
 
-#sfText {
+#result-box {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#sfText, #certificateText {
   border-style: dashed;
   border-radius: 1%;
   background-color: rgb(230, 230, 230);
   padding: 2%;
+  width: 33%;
+  margin-right: 1%;
 }
